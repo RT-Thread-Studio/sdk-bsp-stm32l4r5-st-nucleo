@@ -7,7 +7,7 @@ board:
   description_zh: STMicroelectronics NUCLEO-L4R5ZI Board
   emulator_machine: ''
   large_image: documents/images/board.jpg
-  name: STM32L4R5ZI-ST-NUCLEO
+  name: STM32L4R5-ST-NUCLEO
   price_cn: 114 CNY
   price_global: 19 USD
   sale_contact_cn: https://www.st.com/content/st_com/en/contact-us.html
