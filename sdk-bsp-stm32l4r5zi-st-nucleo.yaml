@@ -1,0 +1,96 @@
+board:
+  buy_url_cn: https://www.st.com/en/evaluation-tools/nucleo-l4r5zi.html#sample-buy
+  buy_url_global: https://www.st.com/en/evaluation-tools/nucleo-l4r5zi.html#sample-buy
+  debug_interface: SWD
+  debugger: ST-LINK
+  description_en: STMicroelectronics NUCLEO-L4R5ZI Board
+  description_zh: STMicroelectronics NUCLEO-L4R5ZI Board
+  emulator_machine: ''
+  large_image: documents/images/board.jpg
+  name: STM32L4R5ZI-ST-NUCLEO
+  price_cn: 114 CNY
+  price_global: 19 USD
+  sale_contact_cn: https://www.st.com/content/st_com/en/contact-us.html
+  sale_contact_global: https://www.st.com/content/st_com/en/contact-us.html
+  small_image: documents/images/small.png
+  vendor: RealThread
+  version: 1.0.0
+chip:
+  chip_name: STM32L4R5ZITx
+  clock_source: HSE
+  device_vendor: STMicroelectronics
+  family_name: STM32
+  rx_name: PA10
+  series_name: STM32L4
+  source_freq: '8000000'
+  sub_series_name: STM32L4R5ZI
+  target_freq: '240000000'
+  tx_name: PA9
+  uart_name: UART1
+docs:
+- category: manual
+  file: documents/UM1727.pdf
+  title: Getting started with STM32 Nucleo board
+example_projects: []
+features:
+- On-board ST-LINK/V2-1
+- USB VBUS, ext. VIN, ext. 5V, ext +3.3V
+- USB OTG FS (Full speed) with micro-AB Connector
+- 'STMicroelectronics Morpho connector : (2 x 72)'
+- STMicroelectronics Zio (Arduino connector)
+- 'Push-buttons: User and Reset'
+- 'LEDs: COM, Power, User LEDs'
+features_zh:
+- On-board ST-LINK/V2-1
+- USB VBUS, ext. VIN, ext. 5V, ext +3.3V
+- USB OTG FS (Full speed) with micro-AB Connector
+- 'STMicroelectronics Morpho connector : (2 x 72)'
+- STMicroelectronics Zio (Arduino connector)
+- 复位和用户按键
+- 'LEDs: COM, Power, User LEDs'
+pkg_type: Board_Support_Packages
+pkg_vendor: RealThread
+pkg_version: 1.0.0
+template_projects:
+- builtin_files:
+  - files_and_folders:
+    - .config
+    - .cproject
+    - .gitignore
+    - .project
+    - .settings
+    - applications
+    - board
+    - cconfig.h
+    - figures
+    - Kconfig
+    - libraries
+    - README.md
+    - rtconfig.h
+    - rtconfig.py
+    - rtconfig_preinc.h
+    - SConscript
+    - SConstruct
+    source_path_offset: project_0
+    target_path_offset: ''
+  external_files:
+  - files_and_folders:
+    - components
+    - include
+    - libcpu/arm
+    - libcpu/Kconfig
+    - libcpu/SConscript
+    - src
+    - tools
+    - Kconfig
+    - LICENSE
+    package_name: RT-Thread
+    package_type: RT-Thread_Source_Code
+    package_vendor: ''
+    package_version: latest
+    source_path_offset: rt-thread
+    target_path_offset: rt-thread
+  project_description: ''
+  project_name: sdk-bsp-stm32l4r5-st-nucleo
+  project_type: rt-thread|@full|@latest
+yaml_version: 3
